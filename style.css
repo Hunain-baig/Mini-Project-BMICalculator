@@ -12,7 +12,13 @@ h1{
 p{
     font-size: 30px;
 }
-.h&w{
+#height{
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+#weight{
     font-size: 25px;
     padding: 5px;
     border-radius: 10px;
