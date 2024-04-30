@@ -22,9 +22,9 @@ form.addEventListener("submit", function (e) {
    // show result
    if (bmi < 18.6) {
     results.innerHTML = `<span>Underweight : ${bmi}</span>`;
-   }else if(bmi <= 18.6 || bmi === 24.9){
+   }else if(bmi >= 18.6 && bmi <24.9){
     results.innerHTML = `<span>Normal Range : ${bmi}</span>`;
-   }else{
+   }else if(bmi >= 24.9){
     results.innerHTML = `<span>Overweight : ${bmi}</span>`;
 }
 }
